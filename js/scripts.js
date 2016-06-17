@@ -24,6 +24,15 @@ $(document).ready(function(){
     $("#priceForPizza").text(orderTotal.pizzaPrice());
     event.preventDefault();
   });
+  $("#cookOrder").click(function(){
+    alert("Your order has been received. Please allow for a minimum of 15 minutes for preperation and cooking.");
+    $("#pizzaModal").hide();
+    event.preventDefault();
+  });
+  $("#carryOut").click(function(){
+    alert("Your order will be ready when you arrive.")
+  });
+
 })
 // Backend Logic
 

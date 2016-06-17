@@ -1,0 +1,15 @@
+body {
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+  background-color: #C97959;
+}
+#smallPizza {
+  margin-top: 34px;
+}
+#medPizza {
+  margin-top: 25px;
+}
+.thumbnail {
+  max-height: 325px;
+}
