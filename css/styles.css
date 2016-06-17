@@ -12,4 +12,6 @@ body {
 }
 .thumbnail {
   max-height: 325px;
+  background-color: #C97959;
+  border-color: #C97959
 }
