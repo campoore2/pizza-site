@@ -6,8 +6,8 @@ By Cameron Poore
 ### Specifications
 
 The customer should be able to order what size pizza they want.
-  *
-  *
+  * Input: Small, Medium, Large
+  * Output: Modal appears after selecting their option.
 
 The customer should be able to add what toppings will be on the pizza.
   *
