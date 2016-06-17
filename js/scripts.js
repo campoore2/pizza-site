@@ -8,5 +8,9 @@ $(document).ready(function(){
     $("#modalTitle").text("");
     $("#modalTitle").append("<h4><input type='hidden' id='pizzaPrice' value='2'>Medium Pizza</input></h4>");
   });
+  $("#lgPizza").click(function(){
+    $("#modalTitle").text("");
+    $("#modalTitle").append("<h4><input type='hidden' id='pizzaPrice' value='2'>Large Pizza</input></h4>");
+  });
   event.preventDefault();
 })
