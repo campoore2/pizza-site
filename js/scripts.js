@@ -16,5 +16,11 @@ $(document).ready(function(){
     $('.blank')[0].reset();
     $("#priceForPizza").text("");
   });
+  $("#getPrice").click(function(){
+    var crustType = parseInt($("input:radio[name='optradio']:checked").val());
+    var toppings = parseInt($("#dropdown option:selected").val());
+    var sizeVal = parseInt($("#pizzaPrice").val());
+  })
+
   event.preventDefault();
 })
