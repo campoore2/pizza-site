@@ -20,7 +20,19 @@ $(document).ready(function(){
     var crustType = parseInt($("input:radio[name='optradio']:checked").val());
     var toppings = parseInt($("#dropdown option:selected").val());
     var sizeVal = parseInt($("#pizzaPrice").val());
-  })
-
-  event.preventDefault();
+    var orderTotal = new pizzaType(sizeVal, toppings, crustType);
+    event.preventDefault();
+  });
 })
+
+// Backend Logic
+
+function pizzaType(sizeVal, toppings, crustType) {
+  this.size = sizeVal;
+  this.top = toppings;
+  this.crust = crustType;
+}
+
+pizzaType.prototype.pizzaPrice = function(){
+  return this.size + this.top + this.crust;
+}
