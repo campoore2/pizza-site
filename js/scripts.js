@@ -12,5 +12,9 @@ $(document).ready(function(){
     $("#modalTitle").text("");
     $("#modalTitle").append("<h4><input type='hidden' id='pizzaPrice' value='2'>Large Pizza</input></h4>");
   });
+  $(".purchasePizza").click(function() {
+    $('.blank')[0].reset();
+    $("#priceForPizza").text("");
+  });
   event.preventDefault();
 })
