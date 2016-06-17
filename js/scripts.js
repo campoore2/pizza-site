@@ -26,7 +26,7 @@ $(document).ready(function(){
   });
   $("#cookOrder").click(function(){
     alert("Your order has been received. Please allow for a minimum of 15 minutes for preperation and cooking.");
-    $("#pizzaModal").hide();
+    $("#pizzaModal").modal("hide");
     event.preventDefault();
   });
   $("#carryOut").click(function(){
